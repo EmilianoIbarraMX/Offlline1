@@ -9,12 +9,12 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "lily-192.png",
+      "src": "MdiAccount.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "lily-512.png",
+      "src": "payment_4173037.png",
       "sizes": "512x512",
       "type": "image/png"
     },
