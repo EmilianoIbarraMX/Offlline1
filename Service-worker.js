@@ -9,12 +9,12 @@ const urlsToCache = [
 self.addEventListener ('install', event => {
 event.waitUntil(
 caches. open (CACHE_NAME)
-.then (cache → {
-console. log ('Abriendo caché'); return cache.addAll (urlsToCache);
+console.log ('Abriendo caché'); return cache.addAll (urlsToCache);
+.then (cache => {
 })
 );
 }) ;
-// Evento de activación self.addEventListener ('activate', event →> { console. log( 'Service Worker activado');
+// Evento de activación self.addEventListener ('activate', event => {console.log( 'Service Worker activado');
 }) :
 // Evento de fetch para interceptar solicitudes y servir desde caché
 self.addEventListener('fetch', event => {
